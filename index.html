@@ -105,7 +105,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 col-sm-5">
-            <form class="" action="index.html" method="post">
+            <form class="form" action="index.html" method="post">
               <div class="form-group">
                 <label for="">Name: </label>
                 <input class="form-control" type="text" name="" value="" placeholder="Enter Name">
@@ -168,6 +168,13 @@
       sr.reveal('.info-right', {
         duration: 2000,
         origin: 'right',
+        distance: '300px',
+        viewfactor:0.2
+      });
+
+      sr.reveal('#contact .form', {
+        duration: 2000,
+        origin: 'left',
         distance: '300px',
         viewfactor:0.2
       });
